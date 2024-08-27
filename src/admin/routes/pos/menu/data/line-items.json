@@ -1,0 +1,52 @@
+{
+  "line-items": [
+    {
+      "title": "Bacon Burger",
+      "quantity": 2,
+      "sku": "unit",
+      "unit_price": 599,
+      "tax_lines": [
+        {
+          "rate": 0.08,
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "title": "Veggie Pizza",
+      "quantity": 1,
+      "sku": "unit",
+      "unit_price": 899,
+      "tax_lines": [
+        {
+          "rate": 0.08,
+          "amount": 72
+        }
+      ]
+    },
+    {
+      "title": "Chicken Sandwich",
+      "quantity": 2,
+      "sku": "unit",
+      "unit_price": 699,
+      "tax_lines": [
+        {
+          "rate": 0.08,
+          "amount": 112
+        }
+      ]
+    },
+    {
+      "title": "Soda",
+      "quantity": 4,
+      "sku": "unit",
+      "unit_price": 199,
+      "tax_lines": [
+        {
+          "rate": 0.08,
+          "amount": 64
+        }
+      ]
+    }
+  ]
+}

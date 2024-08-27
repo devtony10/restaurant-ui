@@ -1,0 +1,137 @@
+{
+  "name": "medusa-restaurant-ui",
+  "version": "0.0.1",
+  "description": "UI for restaurant plugin.",
+  "author": "feudallordtony",
+  "license": "MIT",
+  "keywords": [
+    "sqlite",
+    "postgres",
+    "typescript",
+    "ecommerce",
+    "headless",
+    "medusa",
+    "pixijs",
+    "medusa-plugin-admin"
+  ],
+  "scripts": {
+    "clean": "cross-env ./node_modules/.bin/rimraf dist",
+    "build": "cross-env npm run clean && npm run build:server && npm run build:admin",
+    "build:server": "cross-env npm run clean && tsc -p tsconfig.json",
+    "build:admin": "cross-env medusa-admin build",
+    "prepare": "cross-env NODE_ENV=production npm run build:server && medusa-admin bundle",
+    "watch": "cross-env tsc --watch",
+    "test": "cross-env jest",
+    "seed": "cross-env medusa seed -f ./data/seed.json",
+    "start": "cross-env npm run build && medusa start",
+    "start:custom": "cross-env npm run build && node --preserve-symlinks --trace-warnings index.js",
+    "dev": "cross-env npm run build:server && medusa develop"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.3",
+    "@medusajs/admin": "^7.1.14",
+    "@medusajs/cache-inmemory": "latest",
+    "@medusajs/event-bus-local": "latest",
+    "@medusajs/medusa": "^1.20.6",
+    "@pixi/app": "^7.4.2",
+    "@pixi/assets": "^7.4.2",
+    "@pixi/constants": "^7.4.2",
+    "@pixi/core": "^7.4.2",
+    "@pixi/display": "^7.4.2",
+    "@pixi/events": "^7.4.2",
+    "@pixi/extensions": "^7.4.2",
+    "@pixi/graphics": "^7.4.2",
+    "@pixi/loaders": "^6.5.10",
+    "@pixi/math": "^7.4.2",
+    "@pixi/mesh": "^7.4.2",
+    "@pixi/mesh-extras": "^7.4.2",
+    "@pixi/particle-container": "^7.4.2",
+    "@pixi/react": "^7.1.2",
+    "@pixi/sprite": "^7.4.2",
+    "@pixi/sprite-animated": "^7.4.2",
+    "@pixi/sprite-tiling": "^7.4.2",
+    "@pixi/text": "^7.4.2",
+    "@pixi/text-bitmap": "^7.4.2",
+    "@pixi/ticker": "^7.4.2",
+    "@segment/analytics-next": "^1.70.0",
+    "@tanstack/react-query": "4.22.0",
+    "body-parser": "^1.19.0",
+    "clsx": "^2.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "16.3.1",
+    "express": "^4.17.2",
+    "konva": "^9.3.14",
+    "lodash": "^4.17.21",
+    "medusa-file-minio": "^1.3.1",
+    "medusa-interfaces": "latest",
+    "medusa-react": "^9.0.17",
+    "next": "^14.2.3",
+    "pixi-viewport": "5.0.3",
+    "pixi.js": "7.4.2",
+    "prism-react-renderer": "^2.0.4",
+    "react": "^18.2.0",
+    "react-datepicker": "^6.9.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-konva": "^18.2.10",
+    "react-router-dom": "^6.13.0",
+    "react-table": "^7.8.0",
+    "typeorm": "^0.3.16"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-typescript": "^7.21.4",
+    "@stdlib/number-float64-base-normalize": "0.0.8",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.4.0",
+    "@types/mime": "1.3.5",
+    "@types/node": "^17.0.8",
+    "@types/react": "^18.2.0",
+    "@types/react-datepicker": "^4.10.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/react-table": "^7.7.9",
+    "ajv": "^8.16.0",
+    "babel-preset-medusa-package": "^1.1.19",
+    "cross-env": "^7.0.3",
+    "eslint": "^6.8.0",
+    "i18next-parser": "^8.0.0",
+    "jest": "^27.3.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.0.7",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.2"
+  },
+  "peerDependencies": {
+    "@medusajs/medusa": "^1.20.6",
+    "react": "^18.2.0",
+    "react-router-dom": "^6.13.0"
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "tsconfig": "tsconfig.spec.json"
+      }
+    },
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "<rootDir>/node_modules/"
+    ],
+    "rootDir": "src",
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|js)$",
+    "transform": {
+      ".ts": "ts-jest"
+    },
+    "collectCoverageFrom": [
+      "**/*.(t|j)s"
+    ],
+    "coverageDirectory": "./coverage",
+    "testEnvironment": "node"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}

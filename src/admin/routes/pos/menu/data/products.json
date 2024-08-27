@@ -1,0 +1,655 @@
+{
+  "categories": [
+    {
+      "id": "prodcat_001",
+      "title": "Food",
+      "thumbnail": "../assets/images/category/food.jpg",
+      "products": [
+        {
+          "title": "Bacon Burger",
+          "product_category": "Food",
+          "thumbnail": "assets/images/products/food/Bacon Burger.jpg",
+          "options": [
+            {
+              "title": "Size",
+              "values": ["Small", "Normal", "Large"]
+            }
+          ],
+          "variants": [
+            {
+              "options": [
+                {
+                  "value": "Small"
+                }
+              ],
+              "prices": [
+                {
+                  "amount": 599,
+                  "currency": "USD"
+                }
+              ],
+              "line_items": [
+                {
+                  "quantity": 2,
+                  "sku": "unit",
+                  "unit_price": 599,
+                  "tax_lines": [
+                    {
+                      "rate": 0.08,
+                      "amount": 96
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "options": [
+                {
+                  "value": "Normal"
+                }
+              ],
+              "prices": [
+                {
+                  "amount": 799,
+                  "currency": "USD"
+                }
+              ],
+              "line_items": [
+                {
+                  "quantity": 1,
+                  "sku": "unit",
+                  "unit_price": 799,
+                  "tax_lines": [
+                    {
+                      "rate": 0.08,
+                      "amount": 64
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "options": [
+                {
+                  "value": "Large"
+                }
+              ],
+              "prices": [
+                {
+                  "amount": 999,
+                  "currency": "USD"
+                }
+              ],
+              "line_items": [
+                {
+                  "quantity": 3,
+                  "sku": "unit",
+                  "unit_price": 999,
+                  "tax_lines": [
+                    {
+                      "rate": 0.08,
+                      "amount": 240
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Veggie Pizza",
+          "product_category": "Food",
+          "thumbnail": "assets/images/products/food/Veggie Pizza.jpg",
+          "options": [
+            {
+              "title": "Size",
+              "values": ["Small", "Medium", "Large"]
+            }
+          ],
+          "variants": [
+            {
+              "options": [
+                {
+                  "value": "Small"
+                }
+              ],
+              "prices": [
+                {
+                  "amount": 899,
+                  "currency": "USD"
+                }
+              ],
+              "line_items": [
+                {
+                  "quantity": 1,
+                  "sku": "unit",
+                  "unit_price": 899,
+                  "tax_lines": [
+                    {
+                      "rate": 0.08,
+                      "amount": 72
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "options": [
+                {
+                  "value": "Medium"
+                }
+              ],
+              "prices": [
+                {
+                  "amount": 1299,
+                  "currency": "USD"
+                }
+              ],
+              "line_items": [
+                {
+                  "quantity": 2,
+                  "sku": "unit",
+                  "unit_price": 1299,
+                  "tax_lines": [
+                    {
+                      "rate": 0.08,
+                      "amount": 208
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "options": [
+                {
+                  "value": "Large"
+                }
+              ],
+              "prices": [
+                {
+                  "amount": 1699,
+                  "currency": "USD"
+                }
+              ],
+              "line_items": [
+                {
+                  "quantity": 1,
+                  "sku": "unit",
+                  "unit_price": 1699,
+                  "tax_lines": [
+                    {
+                      "rate": 0.08,
+                      "amount": 136
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chicken Sandwich",
+          "product_category": "Food",
+          "thumbnail": "assets/images/products/food/Chicken Sandwich.jpg",
+          "options": [
+            {
+              "title": "Method",
+              "values": ["Grilled", "Fried"]
+            }
+          ],
+          "variants": [
+            {
+              "options": [
+                {
+                  "value": "Grilled"
+                }
+              ],
+              "prices": [
+                {
+                  "amount": 699,
+                  "currency": "USD"
+                }
+              ],
+              "line_items": [
+                {
+                  "quantity": 2,
+                  "sku": "unit",
+                  "unit_price": 699,
+                  "tax_lines": [
+                    {
+                      "rate": 0.08,
+                      "amount": 112
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Fries",
+          "product_category": "Food",
+          "thumbnail": "assets/images/products/food/Fries.jpg",
+          "options": [
+            {
+              "title": "Size",
+              "values": ["Small", "Large"]
+            }
+          ],
+          "variants": [
+            {
+              "options": [
+                {
+                  "value": "Small"
+                }
+              ],
+              "prices": [
+                {
+                  "amount": 299,
+                  "currency": "USD"
+                }
+              ],
+              "line_items": [
+                {
+                  "quantity": 3,
+                  "sku": "unit",
+                  "unit_price": 299,
+                  "tax_lines": [
+                    {
+                      "rate": 0.08,
+                      "amount": 72
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "options": [
+                {
+                  "value": "Large"
+                }
+              ],
+              "prices": [
+                {
+                  "amount": 499,
+                  "currency": "USD"
+                }
+              ],
+              "line_items": [
+                {
+                  "quantity": 1,
+                  "sku": "unit",
+                  "unit_price": 499,
+                  "tax_lines": [
+                    {
+                      "rate": 0.08,
+                      "amount": 40
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Salad",
+          "product_category": "Food",
+          "thumbnail": "assets/images/products/food/Salad.jpg",
+          "options": [
+            {
+              "title": "Dressing",
+              "values": ["Cream", "Mayo"]
+            }
+          ],
+          "variants": [
+            {
+              "options": [
+                {
+                  "value": "Cream"
+                }
+              ],
+              "prices": [
+                {
+                  "amount": 799,
+                  "currency": "USD"
+                }
+              ],
+              "line_items": [
+                {
+                  "quantity": 2,
+                  "sku": "unit",
+                  "unit_price": 799,
+                  "tax_lines": [
+                    {
+                      "rate": 0.08,
+                      "amount": 128
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prodcat_002",
+      "title": "Drinks",
+      "thumbnail": "assets/images/category/drink.jpg",
+      "products": [
+        {
+          "title": "Iced Coffee",
+          "product_category": "Drinks",
+          "thumbnail": "assets/images/products/drinks/Iced Coffee.jpg",
+          "options": [
+            {
+              "title": "Size",
+              "values": ["Small", "Medium", "Large"]
+            }
+          ],
+          "variants": [
+            {
+              "options": [
+                {
+                  "value": "Small"
+                }
+              ],
+              "prices": [
+                {
+                  "amount": 299,
+                  "currency": "USD"
+                }
+              ],
+              "line_items": [
+                {
+                  "quantity": 3,
+                  "sku": "unit",
+                  "unit_price": 299,
+                  "tax_lines": [
+                    {
+                      "rate": 0.08,
+                      "amount": 72
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "options": [
+                {
+                  "value": "Medium"
+                }
+              ],
+              "prices": [
+                {
+                  "amount": 399,
+                  "currency": "USD"
+                }
+              ],
+              "line_items": [
+                {
+                  "quantity": 2,
+                  "sku": "unit",
+                  "unit_price": 399,
+                  "tax_lines": [
+                    {
+                      "rate": 0.08,
+                      "amount": 64
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "options": [
+                {
+                  "value": "Large"
+                }
+              ],
+              "prices": [
+                {
+                  "amount": 499,
+                  "currency": "USD"
+                }
+              ],
+              "line_items": [
+                {
+                  "quantity": 1,
+                  "sku": "unit",
+                  "unit_price": 499,
+                  "tax_lines": [
+                    {
+                      "rate": 0.08,
+                      "amount": 40
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Lemonade",
+          "product_category": "Drinks",
+          "thumbnail": "assets/images/products/drinks/Lemonade.jpg",
+          "options": [
+            {
+              "title": "Size",
+              "values": ["Small", "Medium", "Large"]
+            }
+          ],
+          "variants": [
+            {
+              "options": [
+                {
+                  "value": "Large"
+                }
+              ],
+              "prices": [
+                {
+                  "amount": 299,
+                  "currency": "USD"
+                }
+              ],
+              "line_items": [
+                {
+                  "quantity": 4,
+                  "sku": "unit",
+                  "unit_price": 299,
+                  "tax_lines": [
+                    {
+                      "rate": 0.08,
+                      "amount": 96
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Milkshake",
+          "product_category": "Drinks",
+          "thumbnail": "assets/images/products/drinks/Milkshake.jpg",
+          "options": [
+            {
+              "title": "Flavor",
+              "values": ["Chocolate", "Vanilla", "Strawberry"]
+            }
+          ],
+          "variants": [
+            {
+              "options": [
+                {
+                  "value": "Chocolate"
+                }
+              ],
+              "prices": [
+                {
+                  "amount": 499,
+                  "currency": "USD"
+                }
+              ],
+              "line_items": [
+                {
+                  "quantity": 2,
+                  "sku": "unit",
+                  "unit_price": 499,
+                  "tax_lines": [
+                    {
+                      "rate": 0.08,
+                      "amount": 80
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "options": [
+                {
+                  "value": "Vanilla"
+                }
+              ],
+              "prices": [
+                {
+                  "amount": 499,
+                  "currency": "USD"
+                }
+              ],
+              "line_items": [
+                {
+                  "quantity": 1,
+                  "sku": "unit",
+                  "unit_price": 499,
+                  "tax_lines": [
+                    {
+                      "rate": 0.08,
+                      "amount": 40
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "options": [
+                {
+                  "value": "Strawberry"
+                }
+              ],
+              "prices": [
+                {
+                  "amount": 499,
+                  "currency": "USD"
+                }
+              ],
+              "line_items": [
+                {
+                  "quantity": 3,
+                  "sku": "unit",
+                  "unit_price": 499,
+                  "tax_lines": [
+                    {
+                      "rate": 0.08,
+                      "amount": 120
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Soda",
+          "product_category": "Drinks",
+          "thumbnail": "assets/images/products/drinks/Soda.jpg",
+          "options": [
+            {
+              "title": "Flavor",
+              "values": ["Coke", "Sprite", "Fanta"]
+            }
+          ],
+          "variants": [
+            {
+              "options": [
+                {
+                  "value": "Coke"
+                }
+              ],
+              "prices": [
+                {
+                  "amount": 199,
+                  "currency": "USD"
+                }
+              ],
+              "line_items": [
+                {
+                  "quantity": 4,
+                  "sku": "unit",
+                  "unit_price": 199,
+                  "tax_lines": [
+                    {
+                      "rate": 0.08,
+                      "amount": 64
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "options": [
+                {
+                  "value": "Sprite"
+                }
+              ],
+              "prices": [
+                {
+                  "amount": 199,
+                  "currency": "USD"
+                }
+              ],
+              "line_items": [
+                {
+                  "quantity": 2,
+                  "sku": "unit",
+                  "unit_price": 199,
+                  "tax_lines": [
+                    {
+                      "rate": 0.08,
+                      "amount": 32
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "options": [
+                {
+                  "value": "Fanta"
+                }
+              ],
+              "prices": [
+                {
+                  "amount": 199,
+                  "currency": "USD"
+                }
+              ],
+              "line_items": [
+                {
+                  "quantity": 3,
+                  "sku": "unit",
+                  "unit_price": 199,
+                  "tax_lines": [
+                    {
+                      "rate": 0.08,
+                      "amount": 48
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
